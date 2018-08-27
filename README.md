@@ -1,5 +1,5 @@
 # Mixer RPG  
-A chat-based RPG game bot for mixer.com
+A chat-based RPG game bot for [mixer](https://mixer.com) based on Firebottle's [original work](https://github.com/firebottle/mixer-rpg)
 
 # Configure
 Before you can use this bot you will need to edit `/db/settings.json`'s channelId entry to the channel you want to bot to join.
