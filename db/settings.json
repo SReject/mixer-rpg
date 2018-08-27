@@ -1,0 +1,119 @@
+{
+    "channelId": 000000,
+
+    "clientId": "2995d7ae2755dcdf050af6ed5a1f9f8f4b05951a7ee5835b",
+    "commandPrefix": "!rpg",
+    "response": "whisper",
+    "whisperRequired": false,
+    "deleteCommand": false,
+    "currencyName": "coins",
+    "overrides": [
+        {
+            "name": "role:owner",
+            "overrides": {
+                "commandCooldown": false,
+                "userCooldown": false
+            }
+        },
+        {
+            "name": "group:ignore",
+            "overrides": {
+                "disabled": true
+            }
+        }
+    ],
+    "commandslist": {
+        "command": ""
+    },
+    "dailyreward": {
+        "command": "-daily",
+        "reward": 500,
+        "reset": 86400
+    },
+    "dailyrewardreset": {
+        "command": "-dailyreset",
+        "disabled": true,
+        "deleteCommand": true,
+        "overrides": [
+            {
+                "name": "role:owner",
+                "overrides": {
+                    "disabled": false
+                }
+            }
+        ]
+    },
+    "inventory": {
+        "command": "-inventory",
+        "response": "whisper"
+    },
+    "currency": {
+        "command": "-coins",
+        "response": "whisper"
+    },
+    "commandlist": {
+        "command": ""
+    },
+    "training": {
+        "command": "-train",
+        "response": "whisper",
+        "cost": 250
+    },
+    "adventure": {
+        "command": "-adventure",
+        "response": "broadcast",
+        "cost": 250,
+        "monsterReward": 1000
+    },
+    "equipitem": {
+        "command": "-equip",
+        "isEquipCommand": true
+    },
+    "sellitem": {
+        "command": "-sell",
+        "isSellCommand": true,
+        "response": "whisper",
+        "sellValue": 200
+    },
+    "help": {
+        "command": "-help",
+        "response": "whisper"
+    },
+    "duel": {
+        "command": "-duel",
+        "minbet": 50,
+        "timeout": 300
+    },
+    "stats": {
+        "command": "-stats",
+        "response": "whisper"
+    },
+    "givecurrency": {
+        "command": "-givecoins",
+        "response": "whisper",
+        "disabled": true,
+        "overrides": [
+            {
+                "name": "role:owner",
+                "overrides": {
+                    "disabled": false
+                }
+            }
+        ]
+    },
+    "shop": {
+        "command": "-shop",
+        "response": "whisper",
+        "cost": 300,
+        "itemcount": 3,
+        "multibuys": true,
+        "refreshRate": 1800,
+        "refreshCost": 1000,
+        "overrides": [
+            {
+                "name": "role:owner",
+                "refreshCost": 0
+            }
+        ]
+    }
+}

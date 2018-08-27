@@ -1,0 +1,29 @@
+{
+    "name": "mixer-rpg",
+    "version": "2.0.0",
+    "description": "An rpg chat bot for Mixer",
+    "main": "app.js",
+    "scripts": {
+        "lint": "./node_modules/.bin/eslint . --fix",
+        "start": "node index.js"
+    },
+    "author": "@LastMageTv",
+    "license": "MIT",
+    "eslintIgnore": [
+        ".git/",
+        "node_modules/",
+        ".vscode/",
+        "db/",
+        "package-lock.json",
+        "app.js"
+    ],
+    "dependencies": {
+        "beam-client-node": "^2.0.0",
+        "mixer-shortcode-oauth": "^1.0.3",
+        "node-json-db": "^0.7.3",
+        "ws": "^5.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^5.4.0"
+    }
+}
