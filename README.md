@@ -26,7 +26,7 @@ Found a bug? Want a feature? Submit an issue or join me on [discord](https://dis
 | !rpg-stats [player]                     | Returns a player's stats and coins                                           |
 | !rpg-coins [player]                     | Returns the amount of coins a player has                                     |
 | !rpg-pay \<player\> \<amount\>          | Transfers coins from one player to another                                   |
-| !rpg-givecoins \<player\> \<amount\>    | (Streamer|Mod only) Gives a player coins                                     |
+| !rpg-givecoins \<player\> \<amount\>    | (Streamer\|Mod only) Gives a player coins                                    |
 | !rpg-adventure                          | The player goes on an adventure with a chance to find loot or face a monster |
 | !rpg-train                              | The player trains with a chance to increase stats or earn coins              |
 | !rpg-pack \<type\>                      | Allows the player to list items in their pack                                |
@@ -41,7 +41,7 @@ Found a bug? Want a feature? Submit an issue or join me on [discord](https://dis
 | !rpg-shop refresh                       | Refreshes the shop                                                           |
 | !rpg-groups add \<player\> \<group\>    | Adds a permissions group to a player                                         |
 | !rpg-groups list \<player\>             | Lists all permissions groups the player belongs to                           |
-| !rpg-groups remove \<player\> \<group\> | (Stream|Mod only) Removes a specified permission group from a player         |
+| !rpg-groups remove \<player\> \<group\> | (Stream\|Mod only) Removes a specified permission group from a player        |
 | !rpg-boss \<duration\>                  | Starts a group battle                                                        |
 
 Items in []'s are optional  
